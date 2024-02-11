@@ -4,7 +4,9 @@ if not exist mnt_link goto nolink
 
 :main
 cd dosbox
-start DOSBox.exe
+start /W DOSBox.exe
+cd ..
+rmdir mnt_link
 goto end
 
 :nolink
