@@ -10,7 +10,7 @@ tlink %1 /t
 if errorlevel 1 goto end
 
 cls
-td %1.%exe
+td %1
 goto end
 
 :noarg
