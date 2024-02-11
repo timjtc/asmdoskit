@@ -7,5 +7,5 @@ A toolkit for experimenting with DOS assembly.
     git clone https://github.com/timjtc/asmdoskit.git
     cd asmdoskit
     ```
-2. Run mntlink.bat and put the directory where your assembly experiments are
-3. Run start.bat to start DOSBox
+2. If you want to mount a custom directory where your assembly experiments are, run mntlink.bat. If not, the default mnt_d directory will be mounted as your default working directory.
+3. Run start.bat to start DOSBox.
